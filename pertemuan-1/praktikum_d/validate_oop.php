@@ -3,9 +3,8 @@ require "Validator.php";
 
 $val = new Validator();
 
-// langsung set data manual (gampang)
-$username = "abc";      // SALAH → kurang dari 6 karakter
-$email    = "tes@";     // SALAH
+$username = $_POST['username'] ?? '';    
+$email    = $_POST['email'] ?? '';     
 
 $val->checkTextLength('username', $username, 6, 12);
 $val->checkEmail('email', $email);

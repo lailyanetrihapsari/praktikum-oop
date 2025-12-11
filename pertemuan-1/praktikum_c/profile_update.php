@@ -1,7 +1,7 @@
 <?php
 
-$username = $_POST['username'] ?? '';
-$email = $_POST['email'] ?? '';
+$username = $_POST['leaa'] ?? '';
+$email = $_POST['leaarchived@gmail.com'] ?? '';
 
 $errors = [];
 
