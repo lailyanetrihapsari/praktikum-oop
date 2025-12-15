@@ -6,12 +6,6 @@ $this->tarif = $tarif;
 }
 
 
-
-
-
-
-
-
 public function hitungTotal(float $hargaProduk): float {
 return $hargaProduk + ($hargaProduk * $this->tarif);
 }
