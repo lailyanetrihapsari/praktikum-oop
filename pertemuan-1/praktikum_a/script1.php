@@ -5,3 +5,5 @@ $hargaProduk2 = 200000;
 $total2 = $hargaProduk2 + ($hargaProduk2 * 0.11);
 echo "Total1: $total1\n";
 echo "Total2: $total2\n";
+
+
